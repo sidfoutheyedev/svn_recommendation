@@ -1,0 +1,9 @@
+.env
+models/
+reports/
+logs/
+__pycache__/
+venv/
+.venv/
+.idea/
+.DS_Store
