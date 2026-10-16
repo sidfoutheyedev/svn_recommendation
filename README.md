@@ -142,3 +142,4 @@ The job stops without changing anything only if the CSV can't be read, a column 
 Answer: `{"products": [{"product_id", "category", "style", "source", "score"}, ...], "exhausted": false}`.
 `exhausted: true` (empty list) = the user has seen everything: show a message or call `/reset`.
 Errors: 400 wrong value, 404 user not onboarded, 422 missing field, 503 database down.
+.
